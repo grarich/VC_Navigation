@@ -1,2 +1,1 @@
-web: 
-worker: npm run heroku
+Bot: npm run heroku

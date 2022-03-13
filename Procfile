@@ -1,1 +1,1 @@
-Bot: npm run heroku
+Bot: npm run start

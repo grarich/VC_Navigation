@@ -1,0 +1,6 @@
+{
+  "name": "VC Navigation",
+  "description": "Discord の VC に常駐する Bot",
+  "repository": "https://github.com/grarich/VC_Navigation",
+  "keywords": ["typescript", "discord", "bot"]
+}

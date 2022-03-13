@@ -4,7 +4,7 @@
   "description": "DiscordのVCに常駐するBot",
   "main": "src/index.ts",
   "scripts": {
-    "launch": "export $(cat .env | grep -v ^# | xargs); tsc -p . && node ./.build/index.js",
+    "start": "export $(cat .env | grep -v ^# | xargs); node ./.build/index.js",
     "dev": "export $(cat .env | grep -v ^# | xargs); ts-node-dev ./src/index.ts",
     "build": "tsc -p .",
     "build:test": "tsc --noEmit"

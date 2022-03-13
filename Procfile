@@ -1,1 +1,1 @@
-Bot: yarn heroku
+worker: yarn heroku

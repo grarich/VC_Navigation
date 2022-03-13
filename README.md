@@ -6,6 +6,14 @@ Discord の VC に常駐する Bot
 
 ## 使い方
 
+### 準備
+
+- ローカル環境で動作させる場合、または VPS など自分の環境でホストする場合  
+  `.env`ファイルを作成し、`.env.sample`のように Discord Bot のトークン、サーバー ID、自分の ID を記述する。
+- Heroku で動作させる場合  
+  `Settings`タブから環境変数に Discord Bot のトークン、サーバー ID、自分の ID を登録する。  
+
+
 ### VC に接続する
 
 `/connect <VoiceChannel>`  
